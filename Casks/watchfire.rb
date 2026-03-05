@@ -1,8 +1,8 @@
 cask "watchfire" do
   version "0.1.2"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "ade0559ad70975e919a3c2f28f5d7ef567193edbc1687db7a2b23f754cab16c7"
 
-  url "https://github.com/watchfire-io/watchfire/releases/download/v#{version}/Watchfire-#{version}.dmg"
+  url "https://github.com/watchfire-io/watchfire/releases/download/v#{version}/Watchfire-#{version}-universal.dmg"
   name "Watchfire"
   desc "Orchestrator for AI coding agents"
   homepage "https://github.com/watchfire-io/watchfire"
