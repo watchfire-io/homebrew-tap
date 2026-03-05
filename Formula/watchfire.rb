@@ -13,6 +13,7 @@ class Watchfire < Formula
       -X #{version_pkg}.Version=#{version}
       -X #{version_pkg}.CommitHash=#{tap.user}
       -X #{version_pkg}.BuildDate=#{time.iso8601}
+      -X #{version_pkg}.PostHogKey=phc_uD6jiMSzE3NVg2uvaTyIgexj76EQbhou9we1jI3iHBQ
     ]
 
     system "go", "build", *std_go_args(ldflags:, output: bin/"watchfired"), "./cmd/watchfired"
