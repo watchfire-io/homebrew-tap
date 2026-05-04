@@ -1,8 +1,8 @@
 class Watchfire < Formula
   desc "Orchestrator for AI coding agents (CLI & daemon)"
   homepage "https://github.com/watchfire-io/watchfire"
-  url "https://github.com/watchfire-io/watchfire/archive/refs/tags/v4.0.0.tar.gz"
-  sha256 "ccb96ca0bf15f6e6a3ae1d5c9616e58692bfcf9c8a4413b3f2cc5398ff8b07e1"
+  url "https://github.com/watchfire-io/watchfire/archive/refs/tags/v5.0.0.tar.gz"
+  sha256 "5e64d96cd45dd4d2bc8e697445f37413a27a62275f284bfdde9223cf771e75f9"
   license "UNLICENSED"
 
   depends_on "go" => :build
