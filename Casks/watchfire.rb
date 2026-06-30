@@ -1,6 +1,6 @@
 cask "watchfire" do
-  version "7.4.0"
-  sha256 "c80d81e44efaf2c495a5dc78a6a3d46b96ef7a2b2373915307f8137b1cc601dd"
+  version "8.0.0"
+  sha256 "ac87fd4b07438139a63cfbe1d35b6e92adf9079fa416654699a63b2bc64ddab2"
 
   url "https://github.com/watchfire-io/watchfire/releases/download/v#{version}/Watchfire-#{version}-universal.dmg"
   name "Watchfire"
